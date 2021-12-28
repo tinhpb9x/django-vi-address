@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: django-vi-address
+Version: 0.1.1
+Summary: A Django app to migrate Vietnam address.
+Home-page: https://github.com/tinhpb9x/django-vi-address
+Author: Tinh Pham Ba
+Author-email: tinhpb9x@gmail.com
+License: BSD-3-Clause  # Example license
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+=====
+Provinces of Vietnam using Django and Django Rest Framework
+=====
+Đây là dự án Django về đơn vị hành chính Việt Nam. Dự án cung cấp mô hình để lưu trữ dữ liệu về các tỉnh/thành phố, quận/huyện, xã/phường của Việt Nam. Đồng thời tạo ra sẵn các endpoint để lấy dữ liệu.
+
+Quick start
+-----------
+
+1. Add "rest_framework", "vi_address" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'rest_framework',
+        'vi_address',
+    ]
+
+
+2. Include the "vi_address" URLconf in your project urls.py like this::
+
+    path('api/addresss/', include('vi_address.urls')),
+
+3. Run "``python manage.py migrate``" to create the vi_address models.
+
+4. Run "``python manage.py insert_data --datatype=city``" to insert data cities.
+
+5. Run "``python manage.py insert_data --datatype=district``" to insert data districts.
+
+6. Run "``python manage.py insert_data --datatype=ward``" to insert data wards.
+
+
