@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: django-vi-address
-Version: 0.1.1
+Version: 0.1.4
 Summary: A Django app to migrate Vietnam address.
 Home-page: https://github.com/tinhpb9x/django-vi-address
 Author: Tinh Pham Ba
 Author-email: tinhpb9x@gmail.com
-License: BSD-3-Clause  # Example license
+License: BSD-3-Clause
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
@@ -25,10 +25,9 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-=====
 Provinces of Vietnam using Django and Django Rest Framework
 =====
-Đây là dự án Django về đơn vị hành chính Việt Nam. Dự án cung cấp mô hình để lưu trữ dữ liệu về các tỉnh/thành phố, quận/huyện, xã/phường của Việt Nam. Đồng thời tạo ra sẵn các endpoint để lấy dữ liệu.
+This is a Django project about provinces/cities, districts, wards of Vietnam. The project provides a model to store data about provinces/cities, districts and wards of Vietnam.
 
 Quick start
 -----------
@@ -36,9 +35,12 @@ Quick start
 1. Add "rest_framework", "vi_address" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
+
         ...
         'rest_framework',
         'vi_address',
+        ...
+
     ]
 
 

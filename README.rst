@@ -1,7 +1,6 @@
-=====
 Provinces of Vietnam using Django and Django Rest Framework
 =====
-Đây là dự án Django về đơn vị hành chính Việt Nam. Dự án cung cấp mô hình để lưu trữ dữ liệu về các tỉnh/thành phố, quận/huyện, xã/phường của Việt Nam. Đồng thời tạo ra sẵn các endpoint để lấy dữ liệu.
+This is a Django project about provinces/cities, districts, wards of Vietnam. The project provides a model to store data about provinces/cities, districts and wards of Vietnam.
 
 Quick start
 -----------
@@ -9,9 +8,12 @@ Quick start
 1. Add "rest_framework", "vi_address" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
+
         ...
         'rest_framework',
         'vi_address',
+        ...
+
     ]
 
 
