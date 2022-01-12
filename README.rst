@@ -31,8 +31,8 @@ Quick start
     INSTALLED_APPS = [
 
         ...
-        'rest_framework',
-        'vi_address',
+        'rest_framework', # new
+        'vi_address', # new
         ...
 
     ]
@@ -40,8 +40,13 @@ Quick start
 
 2. Include the "vi_address" URLconf in your project urls.py like this::
 ::
+    # your_project/urls.py
+    from django.urls import path, include # new
 
-    path('api/addresss/', include('vi_address.urls')),
+    urlpatterns = [
+        ...
+        path('api/address/', include('vi_address.urls')), # new
+    ]
 
 3. Create the models.
 ::
