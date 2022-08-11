@@ -1,4 +1,3 @@
-=====
 django-vi-address
 =====
 This is a Django project about provinces/cities, districts, wards of Vietnam. The project provides a model to store data about provinces/cities, districts and wards of Vietnam.
