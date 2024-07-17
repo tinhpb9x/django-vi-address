@@ -9,14 +9,16 @@ Python >= 3.6
 Installation
 -----------
 1. Create a new project
-::
-    mkdir new_project && cd new_project
+
+
+    $ mkdir new_project && cd new_project
 2. Create a new virtual environment for this project
-::
-    virtualenv venv
-    source venv/bin/activate
+
+
+    $ virtualenv venv
+    $ source venv/bin/activate
 3. Install using `pip`
-::
+
 
     (venv) $ pip install django-vi-address
 
@@ -24,8 +26,8 @@ Installation
 Quick start
 -----------
 
-1. Add "rest_framework", "vi_address" to your INSTALLED_APPS setting like this::
-::
+1. Add `rest_framework`, `vi_address` to your INSTALLED_APPS setting like this:
+
 
     INSTALLED_APPS = [
 
@@ -37,8 +39,9 @@ Quick start
     ]
 
 
-2. Include the "vi_address" URLconf in your project urls.py like this::
-::
+2. Include the `vi_address` URLconf in your project urls.py like this:
+
+
     # your_project/urls.py
     from django.urls import path, include # new
 
@@ -48,29 +51,26 @@ Quick start
     ]
 
 3. Create the models.
-::
+
+
     python manage.py migrate
 
-4. Insert data cities of Vietnam.
-::
-    python manage.py insert_data --datatype=city
+4. Insert data.
 
-5. Insert data districts of Vietnam.
-::
-    python manage.py insert_data --datatype=district
 
-6. Insert data wards of Vietnam.
-::
-    python manage.py insert_data --datatype=ward
+    python manage.py insert_data
 
 Endpoint
 ========
 1. Get cities list
-::
+
+
     /api/address/cities
 2. Get districts list of a city
-::
+
+
     /api/address/city/{city_id}
 3. Get wards list of a district
-::
+
+
     /api/address/district/{district_id}

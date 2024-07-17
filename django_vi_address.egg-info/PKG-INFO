@@ -1,11 +1,87 @@
 Metadata-Version: 2.1
 Name: django-vi-address
-Version: 0.1.5
+Version: 0.1.6
 Summary: A Django app to migrate Vietnam address.
 Home-page: https://github.com/tinhpb9x/django-vi-address
 Author: Tinh Pham Ba
 Author-email: tinhpb9x@gmail.com
 License: BSD-3-Clause
+Description: django-vi-address
+        =====
+        This is a Django project about provinces/cities, districts, wards of Vietnam. The project provides a model to store data about provinces/cities, districts and wards of Vietnam.
+        
+        Requirements
+        -----------
+        Python >= 3.6
+        
+        Installation
+        -----------
+        1. Create a new project
+        
+        
+            $ mkdir new_project && cd new_project
+        2. Create a new virtual environment for this project
+        
+        
+            $ virtualenv venv
+            $ source venv/bin/activate
+        3. Install using `pip`
+        
+        
+            (venv) $ pip install django-vi-address
+        
+        
+        Quick start
+        -----------
+        
+        1. Add `rest_framework`, `vi_address` to your INSTALLED_APPS setting like this:
+        
+        
+            INSTALLED_APPS = [
+        
+                ...
+                'rest_framework', # new
+                'vi_address', # new
+                ...
+        
+            ]
+        
+        
+        2. Include the `vi_address` URLconf in your project urls.py like this:
+        
+        
+            # your_project/urls.py
+            from django.urls import path, include # new
+        
+            urlpatterns = [
+                ...
+                path('api/address/', include('vi_address.urls')), # new
+            ]
+        
+        3. Create the models.
+        
+        
+            python manage.py migrate
+        
+        4. Insert data.
+        
+        
+            python manage.py insert_data
+        
+        Endpoint
+        ========
+        1. Get cities list
+        
+        
+            /api/address/cities
+        2. Get districts list of a city
+        
+        
+            /api/address/city/{city_id}
+        3. Get wards list of a district
+        
+        
+            /api/address/district/{district_id}
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
@@ -22,82 +98,3 @@ Classifier: Topic :: Internet :: WWW/HTTP
 Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
-License-File: LICENSE
-
-django-vi-address
-=====
-This is a Django project about provinces/cities, districts, wards of Vietnam. The project provides a model to store data about provinces/cities, districts and wards of Vietnam.
-
-Requirements
------------
-Python >= 3.6
-
-Installation
------------
-1. Create a new project
-::
-    mkdir new_project && cd new_project
-2. Create a new virtual environment for this project
-::
-    virtualenv venv
-    source venv/bin/activate
-3. Install using `pip`
-::
-
-    (venv) $ pip install django-vi-address
-
-
-Quick start
------------
-
-1. Add "rest_framework", "vi_address" to your INSTALLED_APPS setting like this::
-::
-
-    INSTALLED_APPS = [
-
-        ...
-        'rest_framework', # new
-        'vi_address', # new
-        ...
-
-    ]
-
-
-2. Include the "vi_address" URLconf in your project urls.py like this::
-::
-    # your_project/urls.py
-    from django.urls import path, include # new
-
-    urlpatterns = [
-        ...
-        path('api/address/', include('vi_address.urls')), # new
-    ]
-
-3. Create the models.
-::
-    python manage.py migrate
-
-4. Insert data cities of Vietnam.
-::
-    python manage.py insert_data --datatype=city
-
-5. Insert data districts of Vietnam.
-::
-    python manage.py insert_data --datatype=district
-
-6. Insert data wards of Vietnam.
-::
-    python manage.py insert_data --datatype=ward
-
-Endpoint
-========
-1. Get cities list
-::
-    /api/address/cities
-2. Get districts list of a city
-::
-    /api/address/city/{city_id}
-3. Get wards list of a district
-::
-    /api/address/district/{district_id}
-
