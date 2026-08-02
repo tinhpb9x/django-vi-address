@@ -4,10 +4,10 @@ from setuptools import find_packages, setup
 
 setup(
     name="django-vi-address",
-    version="0.1.6",
+    version="1.0.2",
     description="A Django app to migrate Vietnam address.",
     long_description=Path("README.rst").read_text(encoding="utf-8"),
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     url="https://github.com/tinhpb9x/django-vi-address",
     author="Tinh Pham Ba",
     author_email="tinhpb9x@gmail.com",
