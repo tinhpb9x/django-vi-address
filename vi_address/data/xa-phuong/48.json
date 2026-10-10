@@ -165,13 +165,13 @@
     "parent_code": "48"
   },
   "20333": {
-    "name": "Đặc khu Hoàng Sa",
-    "type": "đặc khu",
+    "name": "Đặc khu Hoàng Sa",
+    "type": "dac-khu",
     "slug": "dac-khu-hoang-sa",
-    "name_with_type": "Đặc khu Đặc khu Hoàng Sa",
-    "path": "Đặc khu Hoàng Sa, Thành phố Đà Nẵng",
-    "path_with_type": "Đặc khu Đặc khu Hoàng Sa, Thành phố Đà Nẵng",
-    "note": "Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của huyện Hoàng Sa thành đặc khu Hoàng Sa. Bỏ cấp huyện. Số: 1659/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "name_with_type": "Đặc khu Hoàng Sa",
+    "path": "Đặc khu Hoàng Sa, Thành phố Đà Nẵng",
+    "path_with_type": "Đặc khu Hoàng Sa, Thành phố Đà Nẵng",
+    "note": "Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của huyện Hoàng Sa thành đặc khu Hoàng Sa. Bỏ cấp huyện. Số: 1659/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "20333",
     "parent_code": "48"
   },

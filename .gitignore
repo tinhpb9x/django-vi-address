@@ -1,3 +1,7 @@
 .DS_Store
 .idea
 CLAUDE.md
+.venv/
+__pycache__/
+*.sqlite3
+build/

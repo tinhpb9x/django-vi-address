@@ -606,11 +606,11 @@
   },
   "21548": {
     "name": "Đặc khu Lý Sơn",
-    "type": "đặc khu",
+    "type": "dac-khu",
     "slug": "dac-khu-ly-son",
-    "name_with_type": "Đặc khu Đặc khu Lý Sơn",
+    "name_with_type": "Đặc khu Lý Sơn",
     "path": "Đặc khu Lý Sơn, Tỉnh Quảng Ngãi",
-    "path_with_type": "Đặc khu Đặc khu Lý Sơn, Tỉnh Quảng Ngãi",
+    "path_with_type": "Đặc khu Lý Sơn, Tỉnh Quảng Ngãi",
     "note": "Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của huyện Lý Sơn thành đặc khu có tên gọi là đặc khu Lý Sơn. Bỏ cấp huyện. Số: 1677/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "21548",
     "parent_code": "51"

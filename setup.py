@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="django-vi-address",
-    version="1.0.2",
+    version="1.1.0",
     description="A Django app to migrate Vietnam address.",
     long_description=Path("README.rst").read_text(encoding="utf-8"),
     long_description_content_type="text/x-rst",

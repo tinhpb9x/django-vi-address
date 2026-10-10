@@ -848,12 +848,12 @@
   },
   "19742": {
     "name": "Đặc khu Cồn Cỏ",
-    "type": "đặc khu",
+    "type": "dac-khu",
     "slug": "dac-khu-con-co",
-    "name_with_type": "Đặc khu Đặc khu Cồn Cỏ",
+    "name_with_type": "Đặc khu Cồn Cỏ",
     "path": "Đặc khu Cồn Cỏ, Tỉnh Quảng Trị",
-    "path_with_type": "Đặc khu Đặc khu Cồn Cỏ, Tỉnh Quảng Trị",
-    "note": "Sắp xếp toàn bộ diện tích tự nhiên và quy mô dân của huyện Cồn Cỏ thành đặc khu có tên gọi là đặc khu Cồn Cỏ. Bỏ cấp huyện. Số: 1680/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "path_with_type": "Đặc khu Cồn Cỏ, Tỉnh Quảng Trị",
+    "note": "Sắp xếp toàn bộ diện tích tự nhiên và quy mô dân của huyện Cồn Cỏ thành đặc khu có tên gọi là đặc khu Cồn Cỏ. Bỏ cấp huyện. Số: 1680/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "19742",
     "parent_code": "44"
   }

@@ -716,11 +716,11 @@
   },
   "26732": {
     "name": "Đặc khu Côn Đảo",
-    "type": "đặc khu",
+    "type": "dac-khu",
     "slug": "dac-khu-con-dao",
-    "name_with_type": "Đặc khu Đặc khu Côn Đảo",
+    "name_with_type": "Đặc khu Côn Đảo",
     "path": "Đặc khu Côn Đảo, Thành phố Hồ Chí Minh",
-    "path_with_type": "Đặc khu Đặc khu Côn Đảo, Thành phố Hồ Chí Minh",
+    "path_with_type": "Đặc khu Côn Đảo, Thành phố Hồ Chí Minh",
     "note": "Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của huyện Côn Đảo thành đặc khu có tên gọi là đặc khu Côn Đảo. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "26732",
     "parent_code": "79"
@@ -1271,7 +1271,7 @@
     "name_with_type": "Phường Hòa Hưng",
     "path": "Phường Hòa Hưng, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường Hòa Hưng, Thành phố Hồ Chí Minh",
-    "note": "Đổi tên từ Phường 15 thành phường Hòa Hưng, hợp nhất Phường 12, Phường 13, Phường 15, 1 phần Phường 14 thuộc Quận 10. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ Phường 15 thành phường Hòa Hưng, hợp nhất Phường 12, Phường 13, Phường 15, 1 phần Phường 14 thuộc Quận 10. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27163",
     "parent_code": "79"
   },
@@ -1282,7 +1282,7 @@
     "name_with_type": "Phường Diên Hồng",
     "path": "Phường Diên Hồng, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường Diên Hồng, Thành phố Hồ Chí Minh",
-    "note": "Đổi tên từ Phường 14 thành phường Diên Hồng, hợp nhất Phường 6, Phường 8, 1 phần Phường 14 thuộc Quận 10. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ Phường 14 thành phường Diên Hồng, hợp nhất Phường 6, Phường 8, 1 phần Phường 14 thuộc Quận 10. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27169",
     "parent_code": "79"
   },
@@ -1293,7 +1293,7 @@
     "name_with_type": "Phường Vườn Lài",
     "path": "Phường Vườn Lài, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường Vườn Lài, Thành phố Hồ Chí Minh",
-    "note": "Đổi tên từ Phường 2 thành phường Vườn Lài, hợp nhất Phường 1, Phường 2, Phường 4, Phường 9 và Phường 10 thuộc Quận 10. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ Phường 2 thành phường Vườn Lài, hợp nhất Phường 1, Phường 2, Phường 4, Phường 9 và Phường 10 thuộc Quận 10. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27190",
     "parent_code": "79"
   },
@@ -1381,7 +1381,7 @@
     "name_with_type": "Phường Chợ Quán",
     "path": "Phường Chợ Quán, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường Chợ Quán, Thành phố Hồ Chí Minh",
-    "note": "Đổi tên từ Phường 4 thành phường Chợ Quán, hợp nhất Phường 1, Phường 2 và Phường 4 thuộc Quận 5. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ Phường 4 thành phường Chợ Quán, hợp nhất Phường 1, Phường 2 và Phường 4 thuộc Quận 5. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27301",
     "parent_code": "79"
   },
@@ -1392,7 +1392,7 @@
     "name_with_type": "Phường An Đông",
     "path": "Phường An Đông, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường An Đông, Thành phố Hồ Chí Minh",
-    "note": "Đổi tên từ Phường 7 thành phường An Đông, hợp nhất Phường 5, Phường 7 và Phường 9 thuộc Quận 5. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ Phường 7 thành phường An Đông, hợp nhất Phường 5, Phường 7 và Phường 9 thuộc Quận 5. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27316",
     "parent_code": "79"
   },
@@ -1403,7 +1403,7 @@
     "name_with_type": "Phường Chợ Lớn",
     "path": "Phường Chợ Lớn, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường Chợ Lớn, Thành phố Hồ Chí Minh",
-    "note": "Đổi tên từ Phường 13 thành phường Chợ Lớn, hợp nhất Phường 11, Phường 12, Phường 13 và Phường 14 thuộc Quận 5. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ Phường 13 thành phường Chợ Lớn, hợp nhất Phường 11, Phường 12, Phường 13 và Phường 14 thuộc Quận 5. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27343",
     "parent_code": "79"
   },
@@ -1546,7 +1546,7 @@
     "name_with_type": "Phường Tân Hưng",
     "path": "Phường Tân Hưng, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường Tân Hưng, Thành phố Hồ Chí Minh",
-    "note": "Hợp nhất các phường Tân Phong, Tân Quy, Tân Kiểng và Tân Hưng. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Hợp nhất các phường Tân Phong, Tân Quy, Tân Kiểng và Tân Hưng. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27475",
     "parent_code": "79"
   },
@@ -1557,7 +1557,7 @@
     "name_with_type": "Phường Tân Thuận",
     "path": "Phường Tân Thuận, Thành phố Hồ Chí Minh",
     "path_with_type": "Phường Tân Thuận, Thành phố Hồ Chí Minh",
-    "note": "Đổi tên từ phường Bình Thuận thành phường Tân Thuận, hợp nhất các phường Bình Thuận, Tân Thuận Đông và Tân Thuận Tây thuộc Quận 7. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ phường Bình Thuận thành phường Tân Thuận, hợp nhất các phường Bình Thuận, Tân Thuận Đông và Tân Thuận Tây thuộc Quận 7. Bỏ cấp huyện. Số: 1685/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "27478",
     "parent_code": "79"
   },

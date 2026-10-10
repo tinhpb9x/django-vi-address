@@ -6,7 +6,8 @@ class City(models.Model):
     slug = models.CharField(max_length=200)
     type = models.CharField(max_length=50)
     name_with_type = models.CharField(max_length=255)
-    code = models.IntegerField()
+    code = models.IntegerField(unique=True)
+    note = models.TextField(blank=True, default='')
 
     class Meta:
         ordering = ['code']
@@ -22,7 +23,7 @@ class Ward(models.Model):
     name_with_type = models.CharField(max_length=255)
     path = models.CharField(max_length=500)
     path_with_type = models.CharField(max_length=1000)
-    code = models.IntegerField()
+    code = models.IntegerField(unique=True)
     note = models.TextField()
     parent_code = models.ForeignKey(City, on_delete=models.CASCADE, related_name='wards')
 

@@ -1233,23 +1233,23 @@
   },
   "11914": {
     "name": "Đặc khu Cát Hải",
-    "type": "đặc khu",
+    "type": "dac-khu",
     "slug": "dac-khu-cat-hai",
-    "name_with_type": "Đặc khu Đặc khu Cát Hải",
+    "name_with_type": "Đặc khu Cát Hải",
     "path": "Đặc khu Cát Hải, Thành phố Hải Phòng",
-    "path_with_type": "Đặc khu Đặc khu Cát Hải, Thành phố Hải Phòng",
+    "path_with_type": "Đặc khu Cát Hải, Thành phố Hải Phòng",
     "note": "Đổi loại hình, đổi tên thành đặc khu Cát Hải, thành lập đặc khu Cát Hải trên cơ sở nhập toàn bộ 10 xã và 02 thị trấn thuộc huyện Cát Hải. Bỏ cấp huyện. Số: 1669/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "11914",
     "parent_code": "31"
   },
   "11948": {
     "name": "Đặc khu Bạch Long Vĩ",
-    "type": "đặc khu",
+    "type": "dac-khu",
     "slug": "dac-khu-bach-long-vi",
-    "name_with_type": "Đặc khu Đặc khu Bạch Long Vĩ",
+    "name_with_type": "Đặc khu Bạch Long Vĩ",
     "path": "Đặc khu Bạch Long Vĩ, Thành phố Hải Phòng",
-    "path_with_type": "Đặc khu Đặc khu Bạch Long Vĩ, Thành phố Hải Phòng",
-    "note": "Sắp xếptoàn bộ diện tích tự nhiên, quy mô dân số của huyện Bạch Long Vĩ thành đặc khu có tên gọi là đặc khu Bạch Long Vĩ. Bỏ cấp huyện. Số: 1669/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "path_with_type": "Đặc khu Bạch Long Vĩ, Thành phố Hải Phòng",
+    "note": "Sắp xếptoàn bộ diện tích tự nhiên, quy mô dân số của huyện Bạch Long Vĩ thành đặc khu có tên gọi là đặc khu Bạch Long Vĩ. Bỏ cấp huyện. Số: 1669/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "11948",
     "parent_code": "31"
   }

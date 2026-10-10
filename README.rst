@@ -22,9 +22,12 @@ Features
 - Read-only REST API (Django REST Framework) to list cities and fetch a
   city with all of its wards.
 - An ``insert_data`` management command that loads the bundled JSON
-  dataset into your database.
-- Each ``Ward`` carries a ``note`` field describing its merger/rename
-  history, sourced from the official resolution data.
+  dataset into your database. It upserts by ``code``, so re-running it
+  after an upgrade updates rows in place and keeps their primary keys
+  (and your foreign keys to them).
+- ``City.note`` and ``Ward.note`` carry the resolution (nghị định) and
+  merger/rename history, sourced from the official NSO catalogue
+  (https://www.nso.gov.vn/phuong-phap-luan-thong-ke/danh-muc/don-vi-hanh-chinh/).
 
 Requirements
 ------------
@@ -72,17 +75,71 @@ Quick start
 
     python manage.py migrate
 
-4. Load the data::
+4. Load (or, after upgrading, update) the data::
 
     python manage.py insert_data
+
+   Options:
+
+   - ``--prune``: also delete cities/wards no longer in the bundled data
+     (cascades to rows referencing them).
+   - ``--reset``: delete everything and re-insert (pre-1.1.0 behaviour;
+     primary keys change and related rows are deleted).
 
 API
 ---
 - ``GET /api/address/cities`` — list all provinces/cities.
 - ``GET /api/address/city/{city_id}`` — retrieve a city with its wards.
 
+Running tests
+-------------
+::
+
+    pip install django djangorestframework
+    python runtests.py
+
 Changelog
 ---------
+
+1.1.0 (2026-10-10)
+~~~~~~~~~~~~~~~~~~
+Data refreshed from the official NSO catalogue (snapshot 2026-10-10).
+
+**Added**
+
+- ``City.note``: the resolution behind each province/city (also in the
+  API).
+- ``insert_data --prune`` and ``insert_data --reset``.
+- Test suite (``python runtests.py``).
+
+**Changed**
+
+- Quảng Ninh (22), Bắc Ninh (24) and Đồng Nai (75) became
+  centrally-governed cities (``type`` ``tinh`` → ``thanh-pho``,
+  ``Thành phố …``); resolutions 36/2026/QH16, 39/2026/QH16,
+  30/2026/QH16.
+- 22 communes in Bắc Ninh and Đồng Nai became wards (``xa`` → ``phuong``);
+  224 ward paths updated accordingly; 29 ward notes re-synced with NSO.
+- ``insert_data`` now upserts by ``code`` in a transaction instead of
+  deleting all rows first.
+- ``City.code`` and ``Ward.code`` are unique (migration ``0002``).
+
+**Fixed**
+
+- Duplicated prefixes (``Xã Xã …``, ``Đặc khu Đặc khu …``), special-zone
+  ``type`` ``"đặc khu"`` → ``dac-khu``, ``xã Bắc Sơn`` capitalisation,
+  14 malformed slugs (``---``, apostrophes), and notes corrupted by a
+  blanket "Phường Phường" replacement (e.g. "phường Phường Đúc").
+
+**Upgrade notes**
+
+1. ``python manage.py migrate vi_address`` (adds ``City.note`` and unique
+   ``code``). If it reports duplicate codes, remove the duplicated rows
+   (or delete all ``City`` rows) and migrate again.
+2. ``python manage.py insert_data`` — rows are updated in place.
+3. Review code relying on ``type == "đặc khu"`` (now ``"dac-khu"``),
+   ``type`` of provinces 22/24/75 and of the 22 converted wards, or on
+   the 14 changed slugs.
 
 1.0.1 (2026-08-03)
 ~~~~~~~~~~~~~~~~~~~
