@@ -105,7 +105,7 @@
     "name_with_type": "Phường Việt Hưng",
     "path": "Phường Việt Hưng, Thành phố Hà Nội",
     "path_with_type": "Phường Việt Hưng, Thành phố Hà Nội",
-    "note": "Hợp nhất 1 phần phường Giang Biên, 1 phần phường Phúc Đồng, 1 phần phường Phúc Lợi, 1 phần phường Việt Hưng, 1 phần phường Gia Thụy, 1 phần Phường Đức Giang, 1 phần phường Thượng Thanh. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Hợp nhất 1 phần phường Giang Biên, 1 phần phường Phúc Đồng, 1 phần phường Phúc Lợi, 1 phần phường Việt Hưng, 1 phần phường Gia Thụy, 1 phần phường phường Đức Giang, 1 phần phường Thượng Thanh. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "00127",
     "parent_code": "01"
   },
@@ -138,7 +138,7 @@
     "name_with_type": "Phường Nghĩa Đô",
     "path": "Phường Nghĩa Đô, Thành phố Hà Nội",
     "path_with_type": "Phường Nghĩa Đô, Thành phố Hà Nội",
-    "note": "Đổi tên từ phường Nghĩa Tân thành phường Nghĩa Đô, hợp nhất phường Nghĩa Tân, 1 phần phường Cổ Nhuế 1, 1 phần phường Mai Dịch, 1 phần phường Nghĩa Đô, 1 phần phường Xuân La, 1 phần phường Xuân Tảo, 1 phần Phường Dịch Vọng, 1 phần phường Dịch Vọng H. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ phường Nghĩa Tân thành phường Nghĩa Đô, hợp nhất phường Nghĩa Tân, 1 phần phường Cổ Nhuế 1, 1 phần phường Mai Dịch, 1 phần phường Nghĩa Đô, 1 phần phường Xuân La, 1 phần phường Xuân Tảo, 1 phần phường phường Dịch Vọng, 1 phần phường Dịch Vọng H. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "00160",
     "parent_code": "01"
   },
@@ -189,7 +189,7 @@
   "00226": {
     "name": "Phường Văn Miếu - Quốc Tử Giám",
     "type": "phuong",
-    "slug": "phuong-van-mieu---quoc-tu-giam",
+    "slug": "phuong-van-mieu-quoc-tu-giam",
     "name_with_type": "Phường Văn Miếu - Quốc Tử Giám",
     "path": "Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội",
     "path_with_type": "Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội",
@@ -385,12 +385,12 @@
     "parent_code": "01"
   },
   "00385": {
-    "name": "Xã Trung Giã",
+    "name": "Xã Trung Giã",
     "type": "xa",
     "slug": "xa-trung-gia",
-    "name_with_type": "Xã Xã Trung Giã",
-    "path": "Xã Trung Giã, Thành phố Hà Nội",
-    "path_with_type": "Xã Xã Trung Giã, Thành phố Hà Nội",
+    "name_with_type": "Xã Trung Giã",
+    "path": "Xã Trung Giã, Thành phố Hà Nội",
+    "path_with_type": "Xã Trung Giã, Thành phố Hà Nội",
     "note": "Đổi tên từ xã Hồng Kỳ thành xã Trung Giã, hợp nhất xã Bắc Sơn, xã Hồng Kỳ, xã Nam Sơn, xã Trung Giã. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "00385",
     "parent_code": "01"
@@ -402,7 +402,7 @@
     "name_with_type": "Xã Đa Phúc",
     "path": "Xã Đa Phúc, Thành phố Hà Nội",
     "path_with_type": "Xã Đa Phúc, Thành phố Hà Nội",
-    "note": "Đổi tên từ xã Đức Hòa thành xã Đa Phúc, hợp nhất các xã Bắc Phú, Đức Hoà, Kim Lũ, Tân Hưng, Việt Long, Xuân Giang và Xuân Thu. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ xã Đức Hòa thành xã Đa Phúc, hợp nhất các xã Bắc Phú, Đức Hoà, Kim Lũ, Tân Hưng, Việt Long, Xuân Giang và Xuân Thu. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "00430",
     "parent_code": "01"
   },
@@ -924,12 +924,12 @@
     "parent_code": "01"
   },
   "09784": {
-    "name": "Xã Đan Phượng",
+    "name": "Xã Đan Phượng",
     "type": "xa",
     "slug": "xa-dan-phuong",
-    "name_with_type": "Xã Xã Đan Phượng",
-    "path": "Xã Đan Phượng, Thành phố Hà Nội",
-    "path_with_type": "Xã Xã Đan Phượng, Thành phố Hà Nội",
+    "name_with_type": "Xã Đan Phượng",
+    "path": "Xã Đan Phượng, Thành phố Hà Nội",
+    "path_with_type": "Xã Đan Phượng, Thành phố Hà Nội",
     "note": "Đổi loại hình, đổi tên thành xã Đan Phượng, hợp nhất thị trấn Phùng, các xã Đồng Tháp, Song Phượng, Thượng Mỗ, Đan Phượng. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "09784",
     "parent_code": "01"
@@ -974,7 +974,7 @@
     "name_with_type": "Xã Dương Hòa",
     "path": "Xã Dương Hòa, Thành phố Hà Nội",
     "path_with_type": "Xã Dương Hòa, Thành phố Hà Nội",
-    "note": "Đổi tên từ xã Yên Sở thành xã Dương Hòa, hợp nhất các xã Cát Quế, Dương Liễu, Đắc Sở, Minh Khai và Yên Sở. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ xã Yên Sở thành xã Dương Hòa, hợp nhất các xã Cát Quế, Dương Liễu, Đắc Sở, Minh Khai và Yên Sở. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "09856",
     "parent_code": "01"
   },
@@ -985,7 +985,7 @@
     "name_with_type": "Xã Sơn Đồng",
     "path": "Xã Sơn Đồng, Thành phố Hà Nội",
     "path_with_type": "Xã Sơn Đồng, Thành phố Hà Nội",
-    "note": "Đổi tên từ xã Tiền Yên thành xã Sơn Đồng, hợp nhất các xã Lại Yên, Sơn Đồng, Tiền Yên, 1 phần xã An Khánh, 1 phần xã Song Phương, 1 phần xã Vân Côn, 1 phần xã An Thượng, 1 phần Xã Vân Canh . Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ xã Tiền Yên thành xã Sơn Đồng, hợp nhất các xã Lại Yên, Sơn Đồng, Tiền Yên, 1 phần xã An Khánh, 1 phần xã Song Phương, 1 phần xã Vân Côn, 1 phần xã An Thượng, 1 phần xã xã Vân Canh . Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "09871",
     "parent_code": "01"
   },
@@ -1034,12 +1034,12 @@
     "parent_code": "01"
   },
   "09931": {
-    "name": "Xã Hưng Đạo",
+    "name": "Xã Hưng Đạo",
     "type": "xa",
     "slug": "xa-hung-dao",
-    "name_with_type": "Xã Xã Hưng Đạo",
-    "path": "Xã Hưng Đạo, Thành phố Hà Nội",
-    "path_with_type": "Xã Xã Hưng Đạo, Thành phố Hà Nội",
+    "name_with_type": "Xã Hưng Đạo",
+    "path": "Xã Hưng Đạo, Thành phố Hà Nội",
+    "path_with_type": "Xã Hưng Đạo, Thành phố Hà Nội",
     "note": "Đổi tên từ xã Cộng Hòa thành xã Hưng Đạo, hợp nhất xã Cộng Hòa, xã Đồng Quang, xã Hưng Đạo. Bỏ cấp huyện. Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "09931",
     "parent_code": "01"

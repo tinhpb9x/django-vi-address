@@ -485,11 +485,11 @@
   },
   "23272": {
     "name": "Đặc khu Phú Quý",
-    "type": "đặc khu",
+    "type": "dac-khu",
     "slug": "dac-khu-phu-quy",
-    "name_with_type": "Đặc khu Đặc khu Phú Quý",
+    "name_with_type": "Đặc khu Phú Quý",
     "path": "Đặc khu Phú Quý, Tỉnh Lâm Đồng",
-    "path_with_type": "Đặc khu Đặc khu Phú Quý, Tỉnh Lâm Đồng",
+    "path_with_type": "Đặc khu Phú Quý, Tỉnh Lâm Đồng",
     "note": "Đổi loại hình, đổi tên từ xã Ngũ Phụng thành đặc khu Phú Quý, hợp nhất xã Long Hải, xã Ngũ Phụng, xã Tam Thanh thành đặc khu. Bỏ cấp huyện. Số: 1671/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "23272",
     "parent_code": "68"
@@ -805,7 +805,7 @@
   "24778": {
     "name": "Phường Lâm Viên - Đà Lạt",
     "type": "phuong",
-    "slug": "phuong-lam-vien---da-lat",
+    "slug": "phuong-lam-vien-da-lat",
     "name_with_type": "Phường Lâm Viên - Đà Lạt",
     "path": "Phường Lâm Viên - Đà Lạt, Tỉnh Lâm Đồng",
     "path_with_type": "Phường Lâm Viên - Đà Lạt, Tỉnh Lâm Đồng",
@@ -816,7 +816,7 @@
   "24781": {
     "name": "Phường Xuân Hương - Đà Lạt",
     "type": "phuong",
-    "slug": "phuong-xuan-huong---da-lat",
+    "slug": "phuong-xuan-huong-da-lat",
     "name_with_type": "Phường Xuân Hương - Đà Lạt",
     "path": "Phường Xuân Hương - Đà Lạt, Tỉnh Lâm Đồng",
     "path_with_type": "Phường Xuân Hương - Đà Lạt, Tỉnh Lâm Đồng",
@@ -827,7 +827,7 @@
   "24787": {
     "name": "Phường Cam Ly - Đà Lạt",
     "type": "phuong",
-    "slug": "phuong-cam-ly---da-lat",
+    "slug": "phuong-cam-ly-da-lat",
     "name_with_type": "Phường Cam Ly - Đà Lạt",
     "path": "Phường Cam Ly - Đà Lạt, Tỉnh Lâm Đồng",
     "path_with_type": "Phường Cam Ly - Đà Lạt, Tỉnh Lâm Đồng",
@@ -838,7 +838,7 @@
   "24805": {
     "name": "Phường Xuân Trường - Đà Lạt",
     "type": "phuong",
-    "slug": "phuong-xuan-truong---da-lat",
+    "slug": "phuong-xuan-truong-da-lat",
     "name_with_type": "Phường Xuân Trường - Đà Lạt",
     "path": "Phường Xuân Trường - Đà Lạt, Tỉnh Lâm Đồng",
     "path_with_type": "Phường Xuân Trường - Đà Lạt, Tỉnh Lâm Đồng",
@@ -871,11 +871,11 @@
   "24829": {
     "name": "Phường B’Lao",
     "type": "phuong",
-    "slug": "phuong-b'lao",
+    "slug": "phuong-blao",
     "name_with_type": "Phường B’Lao",
     "path": "Phường B’Lao, Tỉnh Lâm Đồng",
     "path_with_type": "Phường B’Lao, Tỉnh Lâm Đồng",
-    "note": "Đổi tên từ phường Lộc Sơn thành Phường B’Lao, hợp nhất phường Lộc Sơn, phường B’Lao và xã Lộc Nga . Bỏ cấp huyện. Số: 1671/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ phường Lộc Sơn thành phường Phường B’Lao, hợp nhất phường Lộc Sơn, phường B’Lao và xã Lộc Nga . Bỏ cấp huyện. Số: 1671/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "24829",
     "parent_code": "68"
   },
@@ -893,7 +893,7 @@
   "24846": {
     "name": "Phường Lang Biang - Đà Lạt",
     "type": "phuong",
-    "slug": "phuong-lang-biang---da-lat",
+    "slug": "phuong-lang-biang-da-lat",
     "name_with_type": "Phường Lang Biang - Đà Lạt",
     "path": "Phường Lang Biang - Đà Lạt, Tỉnh Lâm Đồng",
     "path_with_type": "Phường Lang Biang - Đà Lạt, Tỉnh Lâm Đồng",
@@ -1036,11 +1036,11 @@
   "24934": {
     "name": "Xã D’Ran",
     "type": "xa",
-    "slug": "xa-d'ran",
+    "slug": "xa-dran",
     "name_with_type": "Xã D’Ran",
     "path": "Xã D’Ran, Tỉnh Lâm Đồng",
     "path_with_type": "Xã D’Ran, Tỉnh Lâm Đồng",
-    "note": "Đổi tên từ xã Lạc Xuân thành Xã D’Ran, hợp nhất thị trấn D'Ran, xã Lạc Xuân. Bỏ cấp huyện. Số: 1671/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ xã Lạc Xuân thành xã Xã D’Ran, hợp nhất thị trấn D'Ran, xã Lạc Xuân. Bỏ cấp huyện. Số: 1671/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "24934",
     "parent_code": "68"
   },

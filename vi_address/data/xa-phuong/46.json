@@ -39,7 +39,7 @@
     "name_with_type": "Phường Thuận Hóa",
     "path": "Phường Thuận Hóa, Thành phố Huế",
     "path_with_type": "Phường Thuận Hóa, Thành phố Huế",
-    "note": "Đổi tên từ phường Phú Nhuận thành phường Thuận Hoá và hợp nhất các phường Phú Hội, phường Phú Nhuận, Phường Đúc, phường Vĩnh Ninh, phường Phước Vĩnh và phường Trường An. Bỏ cấp huyện. Số: 1675/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "note": "Đổi tên từ phường Phú Nhuận thành phường Thuận Hoá và hợp nhất các phường Phú Hội, phường Phú Nhuận, phường Phường Đúc, phường Vĩnh Ninh, phường Phước Vĩnh và phường Trường An. Bỏ cấp huyện. Số: 1675/NQ-UBTVQH15; Ngày: 16/06/2025",
     "code": "19789",
     "parent_code": "46"
   },
@@ -387,7 +387,7 @@
   "20137": {
     "name": "Xã Chân Mây - Lăng Cô",
     "type": "xa",
-    "slug": "xa-chan-may---lang-co",
+    "slug": "xa-chan-may-lang-co",
     "name_with_type": "Xã Chân Mây - Lăng Cô",
     "path": "Xã Chân Mây - Lăng Cô, Thành phố Huế",
     "path_with_type": "Xã Chân Mây - Lăng Cô, Thành phố Huế",
